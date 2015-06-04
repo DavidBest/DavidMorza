@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Morza</string>
+
+    <!--Activity-->
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_message">Morza</string>
+    <string name="title_activity_help">Help</string>
+    <string name="title_activity_instruction">Instruction</string>
+    <string name="title_activity_get_message">GetMessageActivity</string>
+    <string name="title_activity_contacts">Contacts</string>
+
+    <!--MainActivity-->
+    <string name="Instruction">Instruction</string>
+    <string name="Message">Message</string>
+    <string name="Write_a_message">Write a message</string>
+    <string name="Help">Help</string>
+
+    <!--MessageActivity-->
+    <string name="point">.</string>
+    <string name="tire">_</string>
+    <string name="Enter">Enter</string>
+    <string name="Clear">Clear</string>
+    <string name="Send">Send</string>
+    <string name="Number">Number</string>
+    <string name="ContactName">Contact name</string>
+
+    <!--NumbersActivity-->
+    <string name="WriteANumber">Write a number</string>
+    <string name="Submit">Submit</string>
+
+    <string name="EnterMessage">Enter message</string>
+
+    <!--InstructionActivity-->
+    <string name="hello">Instruction</string>
+    <string name="title_activity_check">CheckActivity</string>
+
+    <string name="title_activity_redactor">Redactor</string>
+
+    <string name="Instr">Welcome to Morza! \n
+Use the buttons “point”, “enter”, «dash” and “clear” to write the message. \n
+Choose the letter using “point” and «dash”, then tap “enter”. Use long-click on “enter” to make the letter capital. \n
+Tap “enter” without choosing any letter to write a space. Tap twice for point symbol, trice for comma symbol and onсe again for question symbol. Use long-click on “enter” to go to the next string. \n
+Tap “clear” to delete the letter. Use long-click on “clear” to delete the number.</string>
+
+</resources>
