@@ -1,0 +1,199 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="david.ru.morza.util.Fragments.KeyBoard">
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/accent_material_dark"
+        android:layout_weight="0.025"/>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5">
+
+
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@color/accent_material_dark"
+                android:layout_weight="0.05"/>
+
+            <Button
+                android:id="@+id/btn_clear"
+                android:textColor="#fffff4fb"
+                android:layout_margin="5dp"
+                android:background="@color/accent_material_dark"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="@string/Clear"
+                android:layout_weight="1"/>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@color/accent_material_dark"
+                android:layout_weight="0.025"/>
+
+
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2">
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@color/accent_material_dark"
+                android:layout_weight="0.025"/>
+            <TextView
+                android:id="@+id/txt_point_tire"
+                android:textColor="@color/accent_material_dark"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:textSize="60sp"
+                android:gravity="center"
+                android:layout_weight="2"/>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@color/accent_material_dark"
+                android:layout_weight="0.05"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/accent_material_dark"
+        android:layout_weight="0.05"/>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="1.5">
+
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@color/accent_material_dark"
+                android:layout_weight="0.05"/>
+
+            <Button
+                android:id="@+id/btn_enter"
+                android:textColor="#fffff4fb"
+                android:layout_margin="5dp"
+                android:background="@color/accent_material_dark"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="@string/Enter"
+                android:layout_weight="1"/>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@color/accent_material_dark"
+                android:layout_weight="0.025"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@color/accent_material_dark"
+                android:layout_weight="0.025"/>
+
+            <Button
+                android:id="@+id/btn_point"
+                android:textColor="#fffff4fb"
+                android:layout_margin="5dp"
+                android:background="@color/accent_material_dark"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="@string/point"
+                android:textSize="50sp"
+                android:layout_weight="1"/>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@color/accent_material_dark"
+                android:layout_weight="0.025"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@color/accent_material_dark"
+                android:layout_weight="0.025"/>
+            <Button
+                android:id="@+id/btn_tire"
+                android:textColor="#fffff4fb"
+                android:layout_margin="5dp"
+                android:background="@color/accent_material_dark"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="@string/tire"
+                android:textSize="50sp"
+                android:layout_weight="1"/>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@color/accent_material_dark"
+                android:layout_weight="0.05"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/accent_material_dark"
+        android:layout_weight="0.05"/>
+</LinearLayout>

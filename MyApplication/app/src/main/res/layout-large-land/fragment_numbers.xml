@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="0dp"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:orientation="vertical"-->
+    <!--android:layout_weight="1">-->
+
+
+    <!--<View-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="0dp"-->
+    <!--android:layout_weight="2"/>-->
+
+    <!--</LinearLayout>-->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:background="@color/accent_material_dark"
+                android:layout_weight="0.015"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="horizontal"
+                android:layout_weight="1">
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/accent_material_dark"
+                    android:layout_weight="0.03"/>
+
+                <fragment
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="5dp"
+                    android:name="com.example.david.morza.fragment.Instruction"
+                    tools:layout="@layout/point_tire_instruction_info" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/accent_material_dark"
+                    android:layout_weight="0.03"/>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:background="@color/accent_material_dark"
+                android:layout_weight="0.015"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            android:layout_weight="3">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:background="@color/accent_material_dark"
+                android:layout_weight="0.015"/>
+
+            <ListView
+                android:id="@+id/listContacts"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="3">
+            </ListView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:background="@color/accent_material_dark"
+                android:layout_weight="0.015"/>
+
+
+        </LinearLayout>
+
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:background="@color/accent_material_dark"
+                android:layout_weight="0.015"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="horizontal"
+                android:layout_weight="1">
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/accent_material_dark"
+                    android:layout_weight="0.03"/>
+
+                <TextView
+                    android:id="@+id/edit_message"
+                    android:hint="@string/ContactName"
+                    android:textColorHint="@color/accent_material_dark"
+                    android:textSize="25dp"
+                    android:textColor="@color/accent_material_dark"
+                    android:gravity="center"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"/>
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/accent_material_dark"
+                    android:layout_weight="0.03"/>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:background="@color/accent_material_dark"
+                android:layout_weight="0.015"/>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:background="@color/accent_material_dark"
+                android:layout_weight="0.015"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="horizontal"
+                android:layout_weight="1">
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/accent_material_dark"
+                    android:layout_weight="0.03"/>
+
+                <View
+                    android:layout_height="match_parent"
+                    android:layout_width="0dp"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"/>
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/accent_material_dark"
+                    android:layout_weight="0.03"/>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:background="@color/accent_material_dark"
+                android:layout_weight="0.015"/>
+
+        </LinearLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"/>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

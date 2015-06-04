@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"/>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:background="@color/accent_material_dark"
+                android:layout_weight="0.015"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="horizontal"
+                android:layout_weight="1">
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/accent_material_dark"
+                    android:layout_weight="0.03"/>
+
+                <Button
+                    android:id="@+id/btn_clear"
+                    android:background="@color/accent_material_dark"
+                    android:textSize="35sp"
+                    android:layout_width="0dp"
+                    android:layout_margin="5dp"
+
+                    android:textColor="#fffff4fb"
+                    android:layout_height="match_parent"
+                    android:text="@string/Clear"
+                    android:layout_weight="1"/>
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/accent_material_dark"
+                    android:layout_weight="0.03"/>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:background="@color/accent_material_dark"
+                android:layout_weight="0.015"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:background="@color/accent_material_dark"
+                android:layout_weight="0.015"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="horizontal"
+                android:layout_weight="1">
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/accent_material_dark"
+                    android:layout_weight="0.03"/>
+
+                <Button
+                    android:id="@+id/btn_point"
+                    android:layout_width="0dp"
+                    android:background="@color/accent_material_dark"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:text="@string/point"
+                    android:textColor="#fffff4fb"
+                    android:textSize="80sp"
+                    android:layout_weight="1"/>
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/accent_material_dark"
+                    android:layout_weight="0.03"/>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:background="@color/accent_material_dark"
+                android:layout_weight="0.015"/>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        android:layout_weight="2">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:background="@color/accent_material_dark"
+                android:layout_weight="0.015"/>
+
+            <TextView
+                android:id="@+id/txt_point_tire"
+                android:layout_width="match_parent"
+                android:textColor="@color/accent_material_dark"
+                android:layout_height="0dp"
+                android:textSize="90sp"
+                android:gravity="center"
+                android:layout_weight="1"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:background="@color/accent_material_dark"
+                android:layout_weight="0.015"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:background="@color/accent_material_dark"
+                android:layout_weight="0.015"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="horizontal"
+                android:layout_weight="1">
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/accent_material_dark"
+                    android:layout_weight="0.03"/>
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"/>
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/accent_material_dark"
+                    android:layout_weight="0.03"/>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:background="@color/accent_material_dark"
+                android:layout_weight="0.015"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:background="@color/accent_material_dark"
+                android:layout_weight="0.015"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="horizontal"
+                android:layout_weight="1">
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/accent_material_dark"
+                    android:layout_weight="0.03"/>
+
+                <Button
+                    android:id="@+id/btn_enter"
+                    android:layout_width="0dp"
+                    android:textSize="35sp"
+                    android:background="@color/accent_material_dark"
+                    android:textColor="#fffff4fb"
+                    android:layout_margin="5dp"
+                    android:layout_height="match_parent"
+                    android:text="@string/Enter"
+                    android:layout_weight="1"/>
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/accent_material_dark"
+                    android:layout_weight="0.03"/>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:background="@color/accent_material_dark"
+                android:layout_weight="0.015"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:background="@color/accent_material_dark"
+                android:layout_weight="0.015"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="horizontal"
+                android:layout_weight="1">
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/accent_material_dark"
+                    android:layout_weight="0.03"/>
+
+                <Button
+                    android:id="@+id/btn_tire"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:background="@color/accent_material_dark"
+                    android:textColor="#fffff4fb"
+                    android:text="@string/tire"
+                    android:textSize="80sp"
+                    android:layout_weight="1"/>
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/accent_material_dark"
+                    android:layout_weight="0.03"/>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:background="@color/accent_material_dark"
+                android:layout_weight="0.015"/>
+
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
